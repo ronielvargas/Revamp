@@ -1,0 +1,36 @@
+form {
+    background: #fff;
+    width: 600px;
+    height: 55px;
+    display: flex;
+    margin-left: 30%;
+    
+}
+
+form .fa-magnifying-glass {
+    color: #777;
+    padding: 10px 20px;
+    align-self: center;
+    font-size: 20px;
+}
+
+form .fa-arrow-right {
+    margin-left: 10px;
+}
+
+
+form input {
+    flex: 1;
+    border: none;
+    outline: none;
+}
+
+form button {
+    background: #9fa241;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+}

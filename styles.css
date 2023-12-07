@@ -1,0 +1,1006 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Cormorant Garamond", serif;
+}
+
+.banner {
+  width: 100%;
+  height: 90vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/photo-1565182999561-18d7dc61c393.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.first {
+  width: 100%;
+  height: 90vh;
+}
+
+.banner h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 15%;
+  font-size: 80px;
+}
+
+.comp {
+  margin-top: 10%;
+  font-size: 64px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.market {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(images/hqguvxyyi5jciyrzy35v.webp);
+}
+
+.third {
+  width: 100%;
+  height: 200vh;
+}
+
+.card_top {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.card-bot {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.img1 {
+  width: 576px;
+  height: 341px;
+  margin: 150px;
+}
+
+.box {
+  position: absolute;
+  width: 576px;
+  height: 341px;
+  background-color: rgb(196, 196, 196);
+  z-index: -1;
+  margin-top: 170px;
+  margin-left: 170px;
+}
+
+.arrow1 {
+  position: absolute;
+  left: 0;
+  margin-left: 70px;
+  margin-top: 20%;
+}
+
+.dec {
+  display: flex;
+  align-items: center;
+}
+
+.dec h1 {
+  font-size: 48px;
+  font-weight: 100;
+  margin-left: -5%;
+}
+
+.line1 {
+  position: absolute;
+  margin-left: 50rem;
+  margin-top: -19%;
+}
+
+.stag h1 {
+  font-size: 40px;
+  font-weight: 100;
+  margin-left: 200px;
+}
+
+.line2 {
+  margin-left: 200px;
+}
+
+.img-23 {
+  width: 603px;
+  height: 411px;
+  margin-left: 53%;
+}
+
+.box1 {
+  position: absolute;
+  width: 603px;
+  height: 411px;
+  background-color: rgb(196, 196, 196);
+  z-index: -1;
+  margin-left: 51.5%;
+  margin-top: -26%;
+}
+
+.ul1 {
+  width: 20%;
+  position: relative;
+  bottom: 250px;
+  left: 18%;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.fourth {
+  width: 100%;
+  height: 90vh;
+  text-align: center;
+}
+
+.fourth h1 {
+  font-size: 64px;
+  font-weight: 100;
+  text-align: center;
+  margin-top: -200px;
+}
+
+.arrow2 {
+  position: absolute;
+  right: 45px;
+  top: 170rem;
+}
+
+.int-lay {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  top: 100px;
+}
+
+.int-lay img {
+  width: 523px;
+  height: 307px;
+}
+
+.fifth {
+  width: 100%;
+  height: 300vh;
+}
+
+/* .sell {
+  width: 100%;
+  height: 100vh;
+} */
+
+.sell {
+  width: 1070px;
+  height: 324px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/image-027.webp);
+  position: relative;
+  left: 15%;
+  background-size: cover;
+  background-position: 20% 20%;
+}
+
+.buy {
+  width: 1070px;
+  height: 324px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/image-004.webp);
+  position: relative;
+  left: 15%;
+  background-size: cover;
+  background-position: 20% 40%;
+  top: 30%;
+}
+
+.sell h1 {
+  position: relative;
+  text-align: center;
+  top: 40%;
+  font-size: 64px;
+  color: white;
+  font-weight: 100;
+}
+
+.arrow3 {
+  position: absolute;
+  left: 0;
+  margin-left: 70px;
+}
+
+.icons-1 {
+  position: relative;
+  top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.num {
+  position: relative;
+  top: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.text {
+  position: relative;
+  top: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 120px;
+}
+
+.text h4 {
+  font-weight: 100;
+}
+
+.text1 {
+  position: relative;
+  top: 300px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 200px;
+}
+
+.text1 h4 {
+  font-weight: 100;
+}
+
+.num h1 {
+  font-size: 65px;
+  font-weight: 100;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.num1 {
+  position: relative;
+  top: 250px;
+  display: flex;
+  justify-content: center;
+  gap: 350px;
+}
+
+.num1 h1 {
+  font-size: 65px;
+  font-weight: 100;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.icons-2 {
+  position: relative;
+  top: 180px;
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+}
+
+.icons-3 {
+  position: relative;
+  top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+}
+
+.icons-4 {
+  position: relative;
+  top: 180px;
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+}
+
+.ic3 {
+  width: 80px;
+  height: 80px;
+  background-color: #9f8f41;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ic3 i {
+  color: white;
+  font-size: 30px;
+}
+
+.ic2 {
+  width: 80px;
+  height: 80px;
+  background-color: #9f8f41;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ic2 i {
+  color: white;
+  font-size: 30px;
+}
+
+.ic1 {
+  width: 80px;
+  height: 80px;
+  background-color: #9f8f41;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ic1 i {
+  color: white;
+  font-size: 30px;
+}
+
+.sixth {
+  width: 100%;
+  height: 100vh;
+}
+
+.arrow4 {
+  position: absolute;
+  right: 45px;
+  margin-top: 180px;
+}
+
+.buy h1 {
+  position: relative;
+  text-align: center;
+  top: 40%;
+  font-size: 64px;
+  color: white;
+  font-weight: 100;
+}
+
+.num2 {
+  position: relative;
+  top: 80px;
+  display: flex;
+  justify-content: center;
+  gap: 350px;
+}
+
+.num2 h1 {
+  font-size: 65px;
+  font-weight: 100;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.text2 {
+  position: relative;
+  top: 130px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 130px;
+}
+
+.text2 h4 {
+  font-weight: 100;
+}
+
+.num3 {
+  position: relative;
+  top: 250px;
+  display: flex;
+  justify-content: center;
+  gap: 350px;
+}
+
+.num3 h1 {
+  font-size: 65px;
+  font-weight: 100;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.text3 {
+  position: relative;
+  top: 300px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 200px;
+  margin-left: 50px;
+}
+
+.text3 h4 {
+  font-weight: 100;
+}
+
+.arrow5 {
+  position: absolute;
+  left: 0;
+  margin-left: 70px;
+}
+
+.arrow6 {
+  position: absolute;
+  left: 0;
+  margin-left: 70px;
+  margin-top: -92rem;
+}
+
+.arr {
+  margin-top: 310px;
+}
+
+.buying {
+  position: relative;
+  top: 400px;
+}
+
+.six {
+  width: 100%;
+  height: 120vh;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  height: 433px;
+}
+.row1 {
+  display: flex;
+  justify-content: center;
+  height: 433px;
+}
+
+.img11,
+.img12 {
+  width: 511px;
+  height: 433px;
+}
+
+.col1,
+.col2 {
+  width: 511px;
+  height: 433px;
+  background-color: #efefef;
+}
+
+.col1 h1 {
+  font-weight: 100;
+  font-size: 36px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.line4 {
+  position: relative;
+  left: 50px;
+}
+
+.col1 p {
+  font-size: 16px;
+  line-height: 40px;
+  text-align: left;
+  margin: 0 50px;
+}
+
+.col2 h1 {
+  font-size: 24px;
+  font-weight: 100;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.col2 p {
+  font-size: 16px;
+  line-height: 40px;
+  text-align: left;
+  margin: 0 50px;
+}
+
+.seven {
+  width: 100%;
+  height: 200vh;
+  margin-top: 120px;
+}
+
+.seven h1 {
+  font-size: 60px;
+  font-weight: 100;
+}
+
+.seven img {
+  width: 1022px;
+  height: 528px;
+  margin-top: 50px;
+}
+
+.tablet {
+  text-align: center;
+}
+
+.tablet .p1 {
+  font-size: 24px;
+  line-height: 40px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 50px;
+}
+
+.tablet h3 {
+  font-size: 24px;
+  text-align: left;
+  width: 200px;
+  position: relative;
+  left: 250px;
+  top: 100px;
+  font-weight: 100;
+}
+
+.tablet .ul1,
+.li1 {
+  position: relative;
+  left: 150px;
+  top: 80px;
+  width: 80%;
+  line-height: 70px;
+  text-align: left;
+
+  font-size: 16px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.p2 {
+  position: relative;
+  text-align: center;
+  top: 200px;
+  width: 80%;
+  left: 150px;
+  line-height: 40px;
+  font-size: 18px;
+
+  font-family: "Noto Sans", sans-serif;
+}
+
+.eight {
+  margin-top: 120px;
+  height: 100vh;
+  background-color: #e7e7e7;
+}
+
+.eight h1 {
+  width: 598px;
+  font-size: 64px;
+  font-weight: 100;
+  position: relative;
+  left: 500px;
+  top: 50px;
+}
+
+.eight img {
+  position: relative;
+  left: 500px;
+  top: 50px;
+}
+
+.eight h3 {
+  text-align: center;
+  font-weight: 100;
+  font-style: italic;
+  margin-top: 110px;
+  font-size: 20px;
+}
+
+.eight p {
+  font-size: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.white-box {
+  width: 1200px;
+  height: 455px;
+  background-color: white;
+  position: relative;
+  left: 152px;
+  top: -250px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.exp1 {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+
+.exp1 p {
+  position: relative;
+  top: 20px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 30px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.exp2 {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  position: relative;
+  top: 50px;
+  left: 27px;
+}
+
+.exp2 p {
+  position: relative;
+  top: 20px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 30px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.exp3 {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  position: relative;
+  top: 50px;
+  left: 35px;
+}
+
+.exp3 p {
+  position: relative;
+  top: 20px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 30px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.line8 {
+  position: absolute;
+  left: 27rem;
+  bottom: 5rem;
+}
+
+.line9 {
+  position: absolute;
+  left: 51rem;
+  bottom: 5rem;
+}
+
+.white-box h3 {
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.ten {
+  width: 100%;
+}
+
+.logo {
+  margin-top: -150px;
+  display: flex;
+  justify-content: center;
+}
+
+.eleven {
+  width: 100%;
+  height: 90vh;
+  margin-top: 100px;
+}
+
+.eleven h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.eleven p {
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+  font-size: 18px;
+  line-height: 50px;
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.white-box1 {
+  width: 1000px;
+  height: 400px;
+  background-color: white;
+  position: relative;
+  left: 259px;
+  top: 200px;
+}
+
+.twelve {
+  width: 100%;
+  height: 120vh;
+}
+
+.twelve img {
+  width: 562px;
+  height: 722px;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+}
+
+.white-box1 {
+  margin-top: -150px;
+}
+
+.white-box1 p {
+  width: 800px;
+  font-size: 50px;
+  font-family: "Cormorant Garamond", serif;
+  line-height: 80px;
+  position: relative;
+  right: 200px;
+  top: 100px;
+  font-style: italic;
+}
+
+.white-box2 {
+  width: 1000px;
+  height: 200px;
+  background-color: white;
+  position: relative;
+  left: 259px;
+  bottom: 90px;
+}
+
+.white-box2 p {
+  font-size: 24px;
+  line-height: 50px;
+  font-style: italic;
+  text-align: center;
+  position: relative;
+  top: 30px;
+  margin-right: 70px;
+  margin-left: 70px;
+}
+
+.img70,
+.img69 {
+  width: 350px;
+  height: 125px;
+}
+
+.img60 {
+  width: 335px;
+  height: 211px;
+}
+
+.brand-logos {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  align-items: center;
+}
+
+.under-brand p {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+}
+
+.thirteen {
+  width: 100%;
+  height: 100vh;
+}
+
+.thirteen img {
+  width: 450px;
+  height: 700px;
+  position: relative;
+  left: 280px;
+}
+
+.grey-box {
+  background-color: #f4f4f4;
+  width: 700px;
+  height: 340px;
+  position: relative;
+  bottom: 450px;
+  left: 600px;
+}
+
+.grey-box h1 {
+  font-size: 64px;
+  font-weight: 100;
+  text-align: center;
+  position: relative;
+  top: 50px;
+  font-style: italic;
+}
+
+.grey-box p {
+  font-size: 24px;
+  font-weight: 300;
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+  margin: 60px 120px;
+  line-height: 50px;
+}
+
+.img81 {
+  width: 180px;
+  height: 140px;
+  position: relative;
+  left: 840px;
+  top: 250px;
+}
+
+.last-sec {
+  width: 100%;
+  height: 100vh;
+}
+
+.last-banner {
+  width: 100%;
+  height: 90vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
+    url(images/work-with-us.webp);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.last-banner h1 {
+  font-size: 100px;
+  font-weight: 100;
+  width: 20%;
+  text-align: right;
+  color: white;
+}
+
+.last-banner p {
+  font-size: 24px;
+  line-height: 50px;
+  width: 40%;
+  font-weight: 100;
+  color: white;
+}
+
+footer div {
+  width: 50%;
+  height: 300px;
+  margin: 20px 50px;
+  line-height: 30px;
+  text-align: center;
+}
+
+footer h1 {
+  margin: 50px 0px;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  height: 65vh;
+  margin-bottom: 200px;
+}
+
+footer p {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin-right: 150px;
+  position: relative;
+  left: 80px;
+  text-align: left;
+}
+
+.fot p {
+  position: relative;
+  left: 220px;
+  margin-right: 400px;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.email {
+  width: 200px;
+  position: relative;
+  bottom: 600px;
+  left: 62.5%;
+}
+
+.email label {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.btn-32 {
+  position: relative;
+  left: 15px;
+}
+
+.footer-logo {
+  position: relative;
+  bottom: 200px;
+  left: 66%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: -200px;
+  width: 300px;
+}
+
+.real {
+  width: 43px;
+  height: 50px;
+}
+
+.equal {
+  width: 50px;
+  height: 48px;
+}
+
+.sereno {
+  width: 50px;
+  height: 10px;
+}
+
+.copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.copy p {
+  font-family: "Noto Sans", sans-serif;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+
+.address p {
+  font-family: "Noto Sans", sans-serif;
+  margin-top: 20px;
+}
+
+.address h1 {
+  font-size: 32px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 300;
+}
+
+.address div {
+  margin-top: 50px;
+}
+
+.address {
+  width: 400px;
+  position: relative;
+  left: 130px;
+  bottom: 200px;
+}
